@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f2;
+    color: #333;
+}
+
+h1 {
+    color: #ff69b4;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.navbar {
+    background-color: #ff69b4;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #ffe6f2 !important;
+    background-color: #ff1493;
+    border-radius: 5px;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #ff69b4;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff1493;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ff69b4;
+}
+
+.form-control:focus {
+    border-color: #ff1493;
+    box-shadow: 0 0 5px rgba(255, 105, 180, 0.5);
+}
+
+.form-group label {
+    color: #ff69b4;
+    font-weight: bold;
+}
